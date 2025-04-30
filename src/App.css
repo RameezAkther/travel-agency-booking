@@ -1,0 +1,11 @@
+* {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+body {
+  font-family: 'Poppins', sans-serif !important;
+  background-color: #f9f9f9; /* optional, light background */
+  color: #333; /* default text color */
+  margin: 0;
+  padding: 0;
+}

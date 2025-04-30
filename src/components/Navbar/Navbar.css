@@ -1,0 +1,70 @@
+.custom-navbar {
+    background-color: #0d0d0d;
+    border-bottom: 2px solid #ff00ff;
+    animation: neonBreath 3s ease-in-out infinite;
+  }
+  
+  @keyframes neonBreath {
+    0%, 100% {
+      border-bottom-color: #ff00ff;
+      box-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff;
+    }
+    50% {
+      border-bottom-color: #ff33ff;
+      box-shadow: 0 0 20px #ff00ff, 0 0 40px #ff00ff;
+    }
+  }
+  
+  .neon-text {
+    font-weight: bold;
+    color: #ff00ff;
+    text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff;
+  }
+  
+  .navbar-logo {
+    height: 40px;
+    width: auto;
+  }
+  
+  /* Base link styles */
+  .nav-link {
+    position: relative; /* for pseudo element */
+    color: #ffffff !important;
+    margin-left: 15px;
+    transition: color 0.3s, text-shadow 0.3s;
+  }
+  
+  /* Hover base color and glow */
+  .nav-link:hover {
+    color: #ff00ff !important;
+    text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff;
+  }
+  
+  /* Glowing underline effect */
+  .nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    left: 0;
+    bottom: -5px;
+    background: #ff00ff;
+    box-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff;
+    transition: width 0.4s ease;
+  }
+  
+  /* Expand underline on hover */
+  .nav-link:hover::after {
+    width: 100%;
+  }
+  
+  .btn-outline-danger {
+    border-color: #ff4d4d;
+    color: #ff4d4d;
+  }
+  
+  .btn-outline-danger:hover {
+    background-color: #ff4d4d;
+    color: white;
+  }
+  

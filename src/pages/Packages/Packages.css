@@ -1,0 +1,12 @@
+.package-card {
+    transition: all 0.3s ease;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+  
+  .package-card:hover {
+    transform: translateY(-8px);
+    border: 1px solid #007bff;
+    box-shadow: 0 8px 16px rgba(0, 123, 255, 0.3);
+  }
+  

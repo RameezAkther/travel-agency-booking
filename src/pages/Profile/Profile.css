@@ -1,0 +1,20 @@
+.profile-card {
+    max-width: 400px;
+    background-color: #fff;
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #4caf50;
+  }
+  
+  .glow-hover:hover {
+    box-shadow: 0 0 20px 5px rgba(76, 175, 80, 0.5);
+    transform: scale(1.03);
+  }
+  
